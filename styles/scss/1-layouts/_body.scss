@@ -1,0 +1,7 @@
+@use '../0-base/variables' as var;
+body{
+    background: url('../../../images/bg.png');
+    background-position: top calc(15vh - 184px) center;
+    background-repeat: no-repeat;
+    background-color: var.$bg-color;
+}

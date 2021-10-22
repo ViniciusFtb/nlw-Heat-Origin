@@ -1,0 +1,25 @@
+.content{
+    margin: auto;
+    max-width: 80%;
+    .name{
+        margin: 25px 0 0 0;
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 4px;
+            p{
+                margin: 0;
+            }
+        }
+    }
+    p{
+        margin: 32px 0 64px 0;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+}
