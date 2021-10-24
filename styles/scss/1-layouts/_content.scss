@@ -1,6 +1,10 @@
+@use '../2-modules/responsivity' as r;
+@use '../0-base/variables' as var;
+
 .content{
     margin: auto;
     max-width: 80%;
+
     .name{
         margin: 25px 0 0 0;
         a{
